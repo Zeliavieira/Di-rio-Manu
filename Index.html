@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Diário da Manu</title>
+</head>
+<body>
+
+    <div id="diario">
+        <h1>Diário da Manu</h1>
+        <p>Marque as atividades que você fez hoje, como se sentiu e o que deixou você chateada!</p>
+
+        <div class="pagina">
+            <h2>Casa</h2>
+            <ul id="casa-lista">
+            </ul>
+            <p>😢 O que deixou você chateada em casa?</p>
+            <textarea id="casa-chateada" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="pagina">
+            <h2>Rua</h2>
+            <ul id="rua-lista">
+            </ul>
+            <p>😢 O que deixou você chateada na rua?</p>
+            <textarea id="rua-chateada" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="pagina">
+            <h2>Escola</h2>
+            <ul id="escola-lista">
+            </ul>
+            <p>😢 O que deixou você chateada na escola?</p>
+            <textarea id="escola-chateada" rows="4" cols="50"></textarea>
+        </div>
+
+        <div class="pagina">
+            <h2>Parque</h2>
+            <ul id="parque-lista">
+            </ul>
+            <p>😢 O que deixou você chateada no parque?</p>
+            <textarea id="parque-chateada" rows="4" cols="50"></textarea>
+        </div>
+
+        <button onclick="gerarRelatorio()">Gerar Relatório</button>
+    </div>
+
+    <script src="script.js"></script>
+    <footer><p>&copy;Diário para minha sobrinha Manu, criado por zelia vieira 2023 </p></footer>
+</body>
+</html>
